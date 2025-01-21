@@ -38,6 +38,7 @@ my-gym-website-project/
 	http://localhost:9090
 
 5. Stop and Remove the Container
+   
 	docker stop my-gym-website
 	
 	docker rm my-gym-website
