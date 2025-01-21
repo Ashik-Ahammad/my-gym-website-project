@@ -25,18 +25,19 @@ my-gym-website-project/
 ### How to Build and Run the Project
 1. Clone the Repository
 	git clone https://github.com/YOUR_USERNAME/my-gym-website-project.git
+
 	cd my-gym-website-project
 
-2. Build the Docker Image
+3. Build the Docker Image
 	docker build -t my-gym-website .
 
-3. 3. Run the Docker Container
+4. 3. Run the Docker Container
 	docker run -d -p 9090:80 --name my-gym-website my-gym-website
 
-4. Access the Website
+5. Access the Website
 	http://localhost:9090
 
-5. Stop and Remove the Container
+6. Stop and Remove the Container
 	docker stop my-gym-website
 	
 	docker rm my-gym-website
