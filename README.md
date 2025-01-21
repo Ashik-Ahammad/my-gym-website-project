@@ -1,8 +1,8 @@
-#My Gym Website Project
+# My Gym Website Project
 
 ## This project containerizes a static gym website using Nginx to serve the content.
 
-##Project Structure
+## Project Structure
 
 my-gym-website-project/
 ├── Dockerfile            # Docker configuration file
