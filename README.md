@@ -44,19 +44,26 @@ my-gym-website-project/
 
 ## Dockerfile Explanation
 
-`### Use official Nginx base image`
+### Use official Nginx base image
+
 `FROM nginx:latest`  
 
-`### Copy website files to Nginx HTML root directory`
+### Copy website files to Nginx HTML root directory
+
 `COPY html/ /usr/share/nginx/html/`
+
 `COPY css/ /usr/share/nginx/html/css/`
+
 `COPY images/ /usr/share/nginx/html/images/`
+
 `COPY js/ /usr/share/nginx/html/js/`
 
-`### Expose port 80 to serve web content`
+### Expose port 80 to serve web content
+
 `EXPOSE 80`
 
-`### Start Nginx server`
+### Start Nginx server
+
 `CMD ["nginx", "-g", "daemon off;"] `
 
 
