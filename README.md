@@ -28,16 +28,16 @@ my-gym-website-project/
 
 	cd my-gym-website-project
 
-3. Build the Docker Image
+2. Build the Docker Image
 	docker build -t my-gym-website .
 
-4. 3. Run the Docker Container
+3.  Run the Docker Container
 	docker run -d -p 9090:80 --name my-gym-website my-gym-website
 
-5. Access the Website
+4. Access the Website
 	http://localhost:9090
 
-6. Stop and Remove the Container
+5. Stop and Remove the Container
 	docker stop my-gym-website
 	
 	docker rm my-gym-website
